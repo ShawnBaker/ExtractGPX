@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33209.295
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractGPX", "ExtractGPX\ExtractGPX.csproj", "{9259690A-039D-469A-A613-F7A879876463}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{F5F6A19C-BEA3-4254-A34E-30AC1424B01D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9259690A-039D-469A-A613-F7A879876463}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{9259690A-039D-469A-A613-F7A879876463}.All|Any CPU.Build.0 = Release|Any CPU
+		{9259690A-039D-469A-A613-F7A879876463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9259690A-039D-469A-A613-F7A879876463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9259690A-039D-469A-A613-F7A879876463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9259690A-039D-469A-A613-F7A879876463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F6A19C-BEA3-4254-A34E-30AC1424B01D}.All|Any CPU.ActiveCfg = Debug
+		{F5F6A19C-BEA3-4254-A34E-30AC1424B01D}.Debug|Any CPU.ActiveCfg = Debug
+		{F5F6A19C-BEA3-4254-A34E-30AC1424B01D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {091EE2DA-96A3-492B-B403-B35BE9A77508}
+	EndGlobalSection
+EndGlobal

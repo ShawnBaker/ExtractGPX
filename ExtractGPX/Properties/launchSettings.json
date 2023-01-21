@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExtractGPX": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\shawn\\SourceData\\Videos\\GX020042.MP4"
+    }
+  }
+}
