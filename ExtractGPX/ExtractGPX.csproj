@@ -38,7 +38,7 @@
 
   <ItemGroup>
     <PackageReference Include="FFmpeg.AutoGen" Version="5.1.1" />
-    <PackageReference Include="FrozenNorth.Gpmf" Version="1.0.0" />
+    <PackageReference Include="FrozenNorth.Gpmf" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
