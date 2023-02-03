@@ -7,6 +7,15 @@
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <ApplicationIcon>gpx.ico</ApplicationIcon>
+    <Version>1.0.1</Version>
+    <Description>Extracts the GPS data from an MP4 file and writes it to a GPX file.</Description>
+    <Copyright>Copyright © 2023 Shawn Baker</Copyright>
+    <PackageProjectUrl>https://github.com/ShawnBaker/ExtractGPX</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ShawnBaker/ExtractGPX</RepositoryUrl>
+    <PackageTags>GPMF;GPX;MP4;GPS;GoPro</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Company>Frozen North Computing</Company>
   </PropertyGroup>
 
   <ItemGroup>
@@ -34,6 +43,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="gpx.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
