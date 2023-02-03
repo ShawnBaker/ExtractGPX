@@ -37,7 +37,7 @@ namespace ExtractGPX
 
 			// get the GPMF items
 			Console.Write("Reading MP4 file {0}...", Path.GetFileName(videoFileName));
-			GpmfItems gpmfItems = Gpmf.LoadMP4(videoFileName);
+			GpmfItemList gpmfItems = Gpmf.LoadMP4(videoFileName);
 			Console.WriteLine();
 
 			// get the GPS items as a GPX object
